@@ -1,0 +1,5 @@
+Scripts I find useful for development
+
+svn-git:
+
+Shorthand scripts for using svn-git when code is mastered in a subversion repository but you want to keep a copy in a remote git repository as well. Note it is "svn-git" because svn is master, git is slave in this case. Also, typing "sgpull" is easier than "gspull" 

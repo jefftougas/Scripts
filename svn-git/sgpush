@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "committing to svn"
+
+git checkout master
+git svn dcommit
+git push origin master --force

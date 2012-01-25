@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "updating from svn"
+
+git checkout master
+git svn rebase
+git push origin master --force
